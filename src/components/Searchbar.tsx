@@ -40,7 +40,11 @@ function Searchbar() {
                 style={styles.item}
                 onMouseDown={() => navigate(`/post/${post.id}`)}
               >
-                <img src={post.image} alt={post.title} style={styles.thumb} />
+                <img
+                  src={`${import.meta.env.BASE_URL}${post.image}`}
+                  alt={post.title}
+                  style={styles.thumb}
+                />
                 <span>{post.title}</span>
               </a>
             </li>

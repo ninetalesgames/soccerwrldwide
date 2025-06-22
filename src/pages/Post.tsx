@@ -15,24 +15,38 @@ function Post() {
       <div style={styles.background} />
 
       <div className="post-page" style={styles.page}>
-<a href="#" onClick={(e) => { e.preventDefault(); window.history.back(); }} style={styles.backLink}>
-  ← Go Back
-</a>
+        <a
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            window.history.back();
+          }}
+          style={styles.backLink}
+        >
+          ← Go Back
+        </a>
         <h1 style={styles.title}>{post.title}</h1>
         <p style={styles.date}><em>{post.date}</em></p>
 
         <div style={styles.contentWithImage}>
           {post.image && (
             <img
-              src={post.image}
+              src={`${import.meta.env.BASE_URL}${post.image}`}
               alt={post.title}
               style={styles.floatedImage}
             />
           )}
 
           {post.content.map((block, i) => {
-            if (block.startsWith('/') && block.endsWith('.png')) {
-              return <img key={i} src={block} alt="Post visual" style={styles.inlineImage} />;
+            if (block.endsWith('.png')) {
+              return (
+                <img
+                  key={i}
+                  src={`${import.meta.env.BASE_URL}${block}`}
+                  alt="Post visual"
+                  style={styles.inlineImage}
+                />
+              );
             }
 
             const emojiRegex = /^[\p{Emoji_Presentation}\p{Extended_Pictographic}]/u;
@@ -56,7 +70,7 @@ function Post() {
 
 const styles: { [key: string]: CSSProperties } = {
   background: {
-    backgroundImage: "url('/background2.png')",
+    backgroundImage: `url('${import.meta.env.BASE_URL}background2.png')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundAttachment: 'fixed',

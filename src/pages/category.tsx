@@ -5,14 +5,13 @@ import type { CSSProperties } from 'react';
 
 function Category() {
   const { categoryId } = useParams<{ categoryId: string }>();
-if (!categoryId) return null;
+  if (!categoryId) return null;
 
-const filteredPosts = posts.filter(p =>
-  Array.isArray(p.category)
-    ? p.category.includes(categoryId)
-    : p.category === categoryId
-);
-
+  const filteredPosts = posts.filter(p =>
+    Array.isArray(p.category)
+      ? p.category.includes(categoryId)
+      : p.category === categoryId
+  );
 
   return (
     <>
@@ -26,7 +25,11 @@ const filteredPosts = posts.filter(p =>
           <article key={post.id} style={styles.post}>
             <Link to={`/post/${post.id}`} style={styles.link}>
               <div style={styles.layout}>
-                <img src={post.image} alt={post.title} style={styles.image} />
+                <img
+                  src={`${import.meta.env.BASE_URL}${post.image}`}
+                  alt={post.title}
+                  style={styles.image}
+                />
                 <div style={styles.textArea}>
                   <h2 style={styles.postTitle}>{post.title}</h2>
                   <p style={styles.excerpt}>{post.content[0]}</p>
@@ -43,7 +46,7 @@ const filteredPosts = posts.filter(p =>
 
 const styles: { [key: string]: CSSProperties } = {
   background: {
-    backgroundImage: "url('/background2.png')",
+    backgroundImage: `url('${import.meta.env.BASE_URL}background2.png')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundAttachment: 'fixed',
