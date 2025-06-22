@@ -10,11 +10,8 @@ function FeaturedPost() {
       <Link to={`/post/${post.id}`} style={styles.link}>
         <div style={styles.layout}>
           {post.image && (
-            <img
-              src={post.image}
-              alt={post.title}
-              style={styles.image}
-            />
+            <img src={`${import.meta.env.BASE_URL}${post.image}`} alt={post.title} style={styles.image} />
+
           )}
           <div style={styles.textArea}>
             <h2 style={styles.title}>{post.title}</h2>

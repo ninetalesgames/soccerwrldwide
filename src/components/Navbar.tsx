@@ -16,7 +16,7 @@ function Navbar() {
     <header className="navbar">
       <div className="navbar-left">
         <Link to="/">
-          <img src="/logo.png" alt="Soccer Wrldwide Logo" className="logo-image" />
+<img src={`${import.meta.env.BASE_URL}logo.png`} alt="Soccer Wrldwide Logo" className="logo-image" />
         </Link>
       </div>
 
