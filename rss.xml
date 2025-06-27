@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Soccer Wrldwide]]></title>
+        <description><![CDATA[Opinion pieces, analysis, and football conversation.]]></description>
+        <link>https://soccerwrldwide.com</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 27 Jun 2025 10:24:25 GMT</lastBuildDate>
+        <atom:link href="https://soccerwrldwide.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Arsenal Missed the Real Transfer Opportunity in Nico Williams, Not Just a Striker]]></title>
+            <description><![CDATA[For most of this transfer window, the spotlight at Arsenal has been on signing a striker. And to be fair, the urgency is understandable. Mikel Arteta’s side have lacked a dominant number nine, and whether it ends up being Benjamin Šeško or Viktor Gyökeres, the club seems close to addressing that need. But in focusing so heavily on the centre-forward role, a more subtle, but potentially just as costly, gap has been ignored: the left wing.]]></description>
+            <link>https://soccerwrldwide.com/post/arsenal-left-wing-nico-williams</link>
+            <guid isPermaLink="true">https://soccerwrldwide.com/post/arsenal-left-wing-nico-williams</guid>
+            <pubDate>Wed, 25 Jun 2025 00:00:00 GMT</pubDate>
+            <media:content url="https://soccerwrldwide.com/assets/blog6.png" medium="image"/>
+        </item>
+        <item>
+            <title><![CDATA[Mbeumo to United: A Tactical Mystery No One Is Talking About]]></title>
+            <description><![CDATA[Everyone seems to be going along with it like it makes sense, Mbeumo to United. But I just don’t get it.]]></description>
+            <link>https://soccerwrldwide.com/post/mbeumo-to-united-tactical-mystery</link>
+            <guid isPermaLink="true">https://soccerwrldwide.com/post/mbeumo-to-united-tactical-mystery</guid>
+            <pubDate>Tue, 24 Jun 2025 00:00:00 GMT</pubDate>
+            <media:content url="https://soccerwrldwide.com/assets/blog5.png" medium="image"/>
+        </item>
+        <item>
+            <title><![CDATA[Garnacho, the Jersey, and Who's Really to Blame]]></title>
+            <description><![CDATA[Manchester United fans are in uproar again, and this time it’s over a shirt. Alejandro Garnacho, one of the brightest young talents at the club, was recently seen wearing an Aston Villa jersey with Marcus Rashford’s name and number, no less. To many fans, it was a betrayal. To me, it’s a symptom of something much bigger and far more serious than a young man’s fashion choices.]]></description>
+            <link>https://soccerwrldwide.com/post/garnacho-jersey-controversy</link>
+            <guid isPermaLink="true">https://soccerwrldwide.com/post/garnacho-jersey-controversy</guid>
+            <pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate>
+            <media:content url="https://soccerwrldwide.com/assets/blog4.png" medium="image"/>
+        </item>
+        <item>
+            <title><![CDATA[Liverpool Are Changing the Narrative, and More Clubs Should Follow]]></title>
+            <description><![CDATA[There is a narrative in football that spending money is the only way to win. Some people quote past transfer windows or use historical data to argue that success always follows the clubs who spend the most. But Liverpool are proving that it doesn’t have to be that way. In fact, they are quietly setting a new standard for how a well-run club can compete at the very top without falling into the same spending traps that other clubs do.]]></description>
+            <link>https://soccerwrldwide.com/post/liverpool-changing-narrative</link>
+            <guid isPermaLink="true">https://soccerwrldwide.com/post/liverpool-changing-narrative</guid>
+            <pubDate>Sun, 22 Jun 2025 00:00:00 GMT</pubDate>
+            <media:content url="https://soccerwrldwide.com/assets/blog3.png" medium="image"/>
+        </item>
+        <item>
+            <title><![CDATA[The Club World Cup Isn’t the Problem, FIFA’s Format Is]]></title>
+            <description><![CDATA[The new Club World Cup is catching heat, and not just from the summer sun in the U.S. The usual criticisms are flying: packed schedules, exhausted players, low-quality games, and meaningless group matches. But let’s not throw the whole concept out just yet.]]></description>
+            <link>https://soccerwrldwide.com/post/club-world-cup-format</link>
+            <guid isPermaLink="true">https://soccerwrldwide.com/post/club-world-cup-format</guid>
+            <pubDate>Sun, 22 Jun 2025 00:00:00 GMT</pubDate>
+            <media:content url="https://soccerwrldwide.com/assets/blog2.png" medium="image"/>
+        </item>
+        <item>
+            <title><![CDATA[Could Not Qualifying for the Champions League Be a Blessing in Disguise?]]></title>
+            <description><![CDATA[Yes, finishing sixth and missing out on back-to-back UCL qualification stings. Especially the way it happened on the final day against United. Controversial calls, the disallowed goal, and then falling short in a game we could have taken. But putting all that aside, this is still a huge chance for Villa to do something historic.]]></description>
+            <link>https://soccerwrldwide.com/post/villa-europa-league-blessing</link>
+            <guid isPermaLink="true">https://soccerwrldwide.com/post/villa-europa-league-blessing</guid>
+            <pubDate>Sun, 22 Jun 2025 00:00:00 GMT</pubDate>
+            <media:content url="https://soccerwrldwide.com/assets/blog1.png" medium="image"/>
+        </item>
+        <item>
+            <title><![CDATA[Welcome to Soccer Wrldwide: A New Voice in the Conversation]]></title>
+            <description><![CDATA[There’s so much football content out there, so why start a blog?]]></description>
+            <link>https://soccerwrldwide.com/post/welcome</link>
+            <guid isPermaLink="true">https://soccerwrldwide.com/post/welcome</guid>
+            <pubDate>Sat, 21 Jun 2025 00:00:00 GMT</pubDate>
+            <media:content url="https://soccerwrldwide.com/assets/blog.png" medium="image"/>
+        </item>
+    </channel>
+</rss>
